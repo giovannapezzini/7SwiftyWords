@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		133376E225B50B2D00969F75 /* level1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 133376E025B50B2D00969F75 /* level1.txt */; };
+		133376E325B50B2D00969F75 /* level2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 133376E125B50B2D00969F75 /* level2.txt */; };
 		13FB1C0325B286AF00048715 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FB1C0225B286AF00048715 /* AppDelegate.swift */; };
 		13FB1C0525B286AF00048715 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FB1C0425B286AF00048715 /* SceneDelegate.swift */; };
 		13FB1C0725B286AF00048715 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FB1C0625B286AF00048715 /* ViewController.swift */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		133376E025B50B2D00969F75 /* level1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level1.txt; sourceTree = "<group>"; };
+		133376E125B50B2D00969F75 /* level2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level2.txt; sourceTree = "<group>"; };
 		13FB1BFF25B286AF00048715 /* 7SwiftyWords.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 7SwiftyWords.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13FB1C0225B286AF00048715 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		13FB1C0425B286AF00048715 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +63,8 @@
 				13FB1C0625B286AF00048715 /* ViewController.swift */,
 				13FB1C0B25B286B500048715 /* Assets.xcassets */,
 				13FB1C0D25B286B500048715 /* LaunchScreen.storyboard */,
+				133376E025B50B2D00969F75 /* level1.txt */,
+				133376E125B50B2D00969F75 /* level2.txt */,
 				13FB1C1025B286B500048715 /* Info.plist */,
 			);
 			path = 7SwiftyWords;
@@ -121,7 +127,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				133376E225B50B2D00969F75 /* level1.txt in Resources */,
 				13FB1C0F25B286B500048715 /* LaunchScreen.storyboard in Resources */,
+				133376E325B50B2D00969F75 /* level2.txt in Resources */,
 				13FB1C0C25B286B500048715 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
