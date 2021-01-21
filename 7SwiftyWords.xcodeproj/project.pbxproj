@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		133376E225B50B2D00969F75 /* level1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 133376E025B50B2D00969F75 /* level1.txt */; };
 		133376E325B50B2D00969F75 /* level2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 133376E125B50B2D00969F75 /* level2.txt */; };
+		13EB383425B91F8A00C02523 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 13EB383325B91F8A00C02523 /* README.md */; };
+		13EB383A25B9235300C02523 /* AppBanner.png in Resources */ = {isa = PBXBuildFile; fileRef = 13EB383925B9235300C02523 /* AppBanner.png */; };
 		13FB1C0325B286AF00048715 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FB1C0225B286AF00048715 /* AppDelegate.swift */; };
 		13FB1C0525B286AF00048715 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FB1C0425B286AF00048715 /* SceneDelegate.swift */; };
 		13FB1C0725B286AF00048715 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FB1C0625B286AF00048715 /* ViewController.swift */; };
@@ -19,6 +21,8 @@
 /* Begin PBXFileReference section */
 		133376E025B50B2D00969F75 /* level1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level1.txt; sourceTree = "<group>"; };
 		133376E125B50B2D00969F75 /* level2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level2.txt; sourceTree = "<group>"; };
+		13EB383325B91F8A00C02523 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		13EB383925B9235300C02523 /* AppBanner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppBanner.png; sourceTree = "<group>"; };
 		13FB1BFF25B286AF00048715 /* 7SwiftyWords.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 7SwiftyWords.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13FB1C0225B286AF00048715 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		13FB1C0425B286AF00048715 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,9 +43,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		13EB383225B91F7300C02523 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				13EB383925B9235300C02523 /* AppBanner.png */,
+			);
+			path = Documentation;
+			sourceTree = "<group>";
+		};
 		13FB1BF625B286AE00048715 = {
 			isa = PBXGroup;
 			children = (
+				13EB383225B91F7300C02523 /* Documentation */,
+				13EB383325B91F8A00C02523 /* README.md */,
 				13FB1C0125B286AF00048715 /* 7SwiftyWords */,
 				13FB1C0025B286AF00048715 /* Products */,
 			);
@@ -129,8 +143,10 @@
 			files = (
 				133376E225B50B2D00969F75 /* level1.txt in Resources */,
 				13FB1C0F25B286B500048715 /* LaunchScreen.storyboard in Resources */,
+				13EB383425B91F8A00C02523 /* README.md in Resources */,
 				133376E325B50B2D00969F75 /* level2.txt in Resources */,
 				13FB1C0C25B286B500048715 /* Assets.xcassets in Resources */,
+				13EB383A25B9235300C02523 /* AppBanner.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
