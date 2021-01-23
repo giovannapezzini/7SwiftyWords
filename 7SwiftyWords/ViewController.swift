@@ -33,6 +33,8 @@ class ViewController: UIViewController {
         loadLevel()
     }
     
+    // MARK: - Layout UI
+    
     func layoutUI() {
         view = UIView()
         view.backgroundColor = .white
@@ -138,6 +140,8 @@ class ViewController: UIViewController {
         }
     }
     
+    // MARK: - Buttons Methods
+    
     @objc func letterTapped(_ sender: UIButton) {
         guard let buttonTitle = sender.titleLabel?.text else { return }
         
@@ -172,16 +176,6 @@ class ViewController: UIViewController {
         }
     }
     
-    func levelUp(action: UIAlertAction) {
-        level += 1
-        solutions.removeAll(keepingCapacity: true)
-        loadLevel()
-        
-        for button in letterButtons {
-            button.isHidden = false
-        }
-    }
-    
     @objc func clearTapped(_ sender: UIButton) {
         currentAnswer.text = ""
         
@@ -190,6 +184,18 @@ class ViewController: UIViewController {
         }
         
         activatedButtons.removeAll()
+    }
+    
+    // MARK: - Load level and Level Up Methods
+    
+    func levelUp(action: UIAlertAction) {
+        level += 1
+        solutions.removeAll(keepingCapacity: true)
+        loadLevel()
+        
+        for button in letterButtons {
+            button.isHidden = false
+        }
     }
     
     func loadLevel() {
